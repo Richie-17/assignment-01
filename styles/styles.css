@@ -49,3 +49,40 @@ button {
   font-size: 32px;
   color: #fd6f00;
 }
+/* Banner */
+.title {
+  color: white;
+  font-size: 40px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 41px;
+}
+.description {
+  width: 600px;
+}
+.dp {
+  border: 2px solid wheat;
+  width: 500px;
+  border-radius: 50%;
+  clip-path: circle(40.0% at 50% 50%);
+}
+.btn-3 {
+  border-radius: 25px;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  border: 5px solid rgba(255, 255, 255, 0.755);
+}
+.links{
+  margin-top: 50px;
+  display:flex;
+  gap: 20px;
+}
+p{
+  font-size: 18px;
+  color: white;
+  opacity: 50%;
+}
