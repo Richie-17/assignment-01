@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* shared */
+.display-flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.orange {
+  color: #fd6f00;
+}
+.dark-3bg {
+  background-color: hsla(0, 0%, 12%, 0.926);
+}
+.white {
+  color: white;
+}
+.gray {
+  color: #ffffff80;
+}
+.btn-primary {
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  background-color: #fd6f00;
+  font-size: 1.5rem;
+  border: none;
+}
+/* nav */
+nav {
+  padding: 70px 200px 41px 200px;
+}
+.nav-container {
+  justify-content: space-between;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: 700;
+  align-items: center;
+  margin: auto 0;
+}
+.lines {
+  display: none;
+}
+.nav-links {
+  padding: 10px 14px;
+  font-size: 1.4rem;
+  margin-right: 40px;
+}
+.nav-anchors1 {
+  gap: 52px;
+  align-items: center;
+}
+.nav-anchors2 {
+  margin-left: 24px;
+  padding: 18px 26px;
+  background-color: #fd6f00;
+}
+/* banner */
+.banner {
+  height: 500px;
+  height: 500px;
+}
+.banner-container {
+  margin-left: 200px;
+}
+.banner-title {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+.banner-description {
+  margin-top: 12px;
+  margin-bottom: 28px;
+}
+.banner-span {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-right: 12px;
+  margin-bottom: 32px;
+}
+.banner-btn {
+  border: 2px solid rgba(255, 255, 255, 0.755);
+  border-radius: 50px;
+  padding: 10px;
+  background-color: gray;
+  margin-right: 253px;
+  margin-bottom: 32px;
+}
+.dp {
+  margin-right: 143px;
+  margin-left: 300px;
+}
+.btn-a {
+  font-size: 1.5rem;
+  margin: 10px;
+  padding: 10px 20px;
+}
+.banner-descripton {
+  margin-bottom: 28px;
+  margin-top: 12px;
+}
+.banner-icon {
+  align-items: center;
+  height: 25px;
+  margin-right: 10px;
+}
+.links {
+  gap: 35px;
+}
+/* About me */
+.about-me {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.about-container {
+  margin-left: 200px;
+  margin-right: 200px;
+  justify-content: space-between;
+}
+.about-container > h1 {
+  margin-bottom: 20px;
+}
+.about-h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+.about-h1-2 {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+.about-p {
+  text-align: end;
+  font-size: 1.3rem;
+}
+.about-container-icon {
+  gap: 7px;
+  flex-direction: row-reverse;
+}
+
+/* Awards */
+
+/* My portfolio */
+
+/* Reach out me */
+
+/* footer */
+
+/* media query */
+@media screen and (max-width: 576px) {
+  .nav-container {
+    margin-left: -180px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .lines {
+    display: block;
+    margin-left: 250px;
+  }
+  .banner {
+    flex-direction: column;
+    height: 700px;
+  }
+  .banner-container {
+    margin-left: 20px;
+  }
+  .dp {
+    display: none;
+  }
+  .banner-description {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+  }
+  .banner-icon {
+    display: none;
+  }
+  .banner-btn {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .links {
+    margin-top: 50px;
+    justify-content: space-around;
+  }
+  .about-container {
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 50px;
+  }
+  .about-container1 {
+    margin-bottom: 0 auto;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .about-container-icon {
+    justify-content: start;
+    margin-left: 20px;
+  }
+  .about-p,
+  .about-h1-2 {
+    text-align: start;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+}
