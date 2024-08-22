@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
 .rubik {
   font-family: "Rubik", sans-serif;
 }
@@ -9,6 +13,12 @@
 }
 
 /* shared */
+.center {
+  margin: 0 auto;
+}
+.text-center {
+  text-align: center;
+}
 .display-flex {
   display: flex;
 }
@@ -68,10 +78,6 @@ nav {
   background-color: #fd6f00;
 }
 /* banner */
-.banner {
-  height: 500px;
-  height: 500px;
-}
 .banner-container {
   margin-left: 200px;
 }
@@ -147,7 +153,7 @@ nav {
   gap: 7px;
   flex-direction: row-reverse;
 }
-/* My exp */
+/* exp */
 .exp {
   padding: 100px 193px 100px 200px;
   background-image: linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
@@ -188,14 +194,191 @@ nav {
 .exp-container {
   margin-bottom: 40px;
 }
-
 /* Awards */
-
+.awards {
+  padding-left: 200px;
+  padding-right: 173px;
+  padding-bottom: 100px;
+}
+.awards > h1,
+.awards > p {
+  text-align: center;
+}
+.awards > h1 {
+  padding-top: 100px;
+}
+.awards > p {
+  padding-top: 20px;
+  padding-bottom: 48px;
+}
+.award-box {
+  background-color: black;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 42px 56px;
+  margin-bottom: 27px;
+}
+.box-content {
+  justify-content: space-between;
+}
+.award-box h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+}
+.award-p2 {
+  font-weight: 400;
+  font-size: 1.1rem;
+  width: 663px;
+}
+.award-p {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
 /* My portfolio */
-
+.portfolio {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+.port-h1 {
+  margin-bottom: 24px;
+  font-weight: 800px;
+  font-size: 2.5rem;
+}
+.port-link {
+  font-size: 1.5rem;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 48px 136px;
+}
+.port-a {
+  padding: 10px 20px;
+  background-color: black;
+  border: none;
+  font-weight: 400px;
+}
+.port-links {
+  justify-content: space-between;
+}
+.orange2 {
+  background: rgba(253, 111, 0, 1);
+}
+.port-card {
+  justify-content: space-around;
+}
+.port-card1-content {
+  padding: 36px;
+  padding-right: 0;
+  max-width: 600px;
+}
+.card1-p1 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+.card1-p2 {
+  font-size: 1.1rem;
+}
+.port-card h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+.port-card2 {
+  margin-top: 60px;
+  flex-direction: row-reverse;
+}
 /* Reach out me */
+.reach-out {
+  padding: 100px 193px 100px 200px;
+}
+.reach-out p {
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+}
+.reach-out h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+.form {
+  margin-top: 60px;
+  padding: 64px 114px;
+  background: rgba(253, 111, 0, 0.1);
+}
+.form-content1 {
+  border: none;
+  justify-content: space-between;
+}
+.form-content11 {
+  border-bottom: 1.5px white solid;
+}
+.form-content1 input {
+  width: 500px;
+  height: 34px;
+
+  background-color: transparent;
+  border: none;
+}
+.form-content2 {
+  margin-top: 56px;
+}
+.form-content2 input {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.form-span {
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 16px;
+  margin-bottom: 40px;
+}
+.form-btn {
+  color: white;
+  border-radius: 0px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
 
 /* footer */
+footer {
+  background-color: black;
+  padding-top: 112px;
+}
+footer h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  margin-bottom: 33px;
+}
+.footer-link {
+  width: 810px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 10px 14px;
+  margin-bottom: 80px;
+}
+.footer-link a {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+}
+.footer-icon {
+  margin: 0 auto;
+  max-width: fit-content;
+  margin-bottom: 62px;
+}
+.footer-right {
+  background-color: rgba(18, 18, 18, 1);
+  padding: 26px;
+}
+.footer-right p {
+  font-size: 1.4rem;
+}
 
 /* media query */
 @media screen and (max-width: 576px) {
@@ -255,5 +438,59 @@ nav {
     text-align: start;
     margin-bottom: 20px;
     margin-left: 20px;
+  }
+  .exp {
+    flex-direction: column;
+    padding: 15px;
+  }
+  hr {
+    display: none;
+  }
+  .exp-para {
+    display: none;
+  }
+  .awards {
+    padding: 10px;
+  }
+  .award-box,
+  .portfolio,
+  .reach-out {
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  .award-p {
+    text-align: end;
+  }
+  .award-p2 {
+    max-width: 330px;
+  }
+  .port-link {
+    display: none;
+  }
+  .port-card {
+    flex-direction: column;
+  }
+  .port-card img {
+    margin-top: 50px;
+    width: 350px;
+  }
+  .port-card1-content {
+    width: 200px;
+  }
+  .form {
+    padding: 10px;
+  }
+  .form-content1 input {
+    width: 200px;
+  }
+  .form-content1 {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer-link {
+    width: 310px;
+    flex-direction: column;
+    gap: 20px;
   }
 }
